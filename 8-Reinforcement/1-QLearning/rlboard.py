@@ -149,7 +149,7 @@ class Board:
                 if self.matrix[x,y] == Board.Cell.empty and Q is not None:
                     p = probs(Q[x,y])
                     dx,dy = 0,0
-                    for i,(ddx,ddy) in enumerate([(-1,0),(1,0),(0,-1),(0,1)]):
+                    for i,(ddx,ddy) in enumerate([(0,-1),(0,1),(-1,0),(1,0)]):
                         dx += ddx*p[i]
                         dy += ddy*p[i]
                         l = draw_line(dx,dy,self.size)
@@ -157,10 +157,10 @@ class Board:
 
         # Draw grid
         for i in range(self.height+1):
-            img[:,i*self.size] = 0.3
+            img[i*self.size,:] = 0.3
             #cv2.line(img,(0,i*self.size),(self.width*self.size,i*self.size), self.grid_color, self.grid_thickness,lineType=self.grid_line_type)
         for j in range(self.width+1):
-            img[j*self.size,:] = 0.3
+            img[:,j*self.size] = 0.3
             #cv2.line(img,(j*self.size,0),(j*self.size,self.height*self.size), self.grid_color, self.grid_thickness,lineType=self.grid_line_type)
         return img
 
