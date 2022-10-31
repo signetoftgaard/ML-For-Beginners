@@ -1,7 +1,7 @@
 # Postscript: Machine learning in the real world
 
-
 ![Summary of machine learning in the real world in a sketchnote](../../sketchnotes/ml-realworld.png)
+
 > Sketchnote by [Tomomi Imura](https://www.twitter.com/girlie_mac)
 
 In this curriculum, you have learned many ways to prepare data for training and create machine learning models. You built a series of classic regression, clustering, classification, natural language processing, and time series models. Congratulations! Now, you might be wondering what it's all for... what are the real world applications for these models?
@@ -105,14 +105,14 @@ Sensors to track movements of farm animals and IoT make use of this type of visu
 https://druckhaus-hofmann.de/gallery/31-wj-feb-2020.pdf
 
 ### ⚡️ Energy Management
-  
+
 In our lessons on [time series forecasting](../../7-TimeSeries/README.md), we invoked the concept of smart parking meters to generate revenue for a town based on understanding supply and demand. This article discusses in detail how clustering, regression and time series forecasting combined to help predict future energy use in Ireland, based off of smart metering.
 
 https://www-cdn.knime.com/sites/default/files/inline-images/knime_bigdata_energy_timeseries_whitepaper.pdf
 
 ## 💼 Insurance
 
-The insurance sector is another sector that uses ML to construct and optimize viable financial and actuarial models. 
+The insurance sector is another sector that uses ML to construct and optimize viable financial and actuarial models.
 
 ### Volatility Management
 
@@ -128,7 +128,7 @@ In the arts, for example in journalism, there are many interesting problems. Det
 
 Detecting fake news has become a game of cat and mouse in today's media. In this article, researchers suggest that a system combining several of the ML techniques we have studied can be tested and the best model deployed: "This system is based on natural language processing to extract features from the data and then these features are used for the training of machine learning classifiers such as Naive Bayes,  Support Vector Machine (SVM), Random Forest (RF), Stochastic Gradient Descent (SGD), and Logistic Regression(LR)."
 
-https://www.irjet.net/archives/V7/i6/IRJET-V7I6688.pdf
+[Real Time Fake News Detection Using Machine Learning and NLP by Aman Srivastava](https://www.irjet.net/archives/V7/i6/IRJET-V7I6688.pdf "Read pdf")
 
 This article shows how combining different ML domains can produce interesting results that can help stop fake news from spreading and creating real damage; in this case, the impetus was the spread of rumors about COVID treatments that incited mob violence.
 
@@ -146,7 +146,7 @@ https://www.chicagobusiness.com/article/20180518/ISSUE01/180519840/art-institute
 
 The most effective marketing strategies target customers in different ways based on various groupings. In this article, the uses of Clustering algorithms are discussed to support differentiated marketing. Differentiated marketing helps companies improve brand recognition, reach more customers, and make more money.
 
-https://ai.inqline.com/machine-learning-for-marketing-customer-segmentation/
+[https://neptune.ai/blog/customer-segmentation-using-machine-learning]() 
 
 ## 🚀 Challenge
 
