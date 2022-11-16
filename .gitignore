@@ -355,3 +355,5 @@ MigrationBackup/
 
 # Mac-specific
 .DS_Store
+/10-Workshop/E1-0-AgeClass/
+/10-Workshop/E1-1-age-classification/.gitignore
