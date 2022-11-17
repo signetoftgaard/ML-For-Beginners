@@ -1,21 +1,33 @@
-# Build a web app to use your ML model
+# MLME Workshop 13.10.2022
 
-In this section of the curriculum, you will be introduced to an applied ML topic: how to save your Scikit-learn model as a file that can be used to make predictions within a web application. Once the model is saved, you'll learn how to use it in a web app built in Flask. You'll first create a model using some data that's all about UFO sightings! Then, you'll build a web app that will allow you to input a number of seconds with a latitude and a longitude value to predict which country reported seeing a UFO.
+# 1. Build a web app to use an ML model
 
-![UFO Parking](images/ufo.jpg)
+After [3-Web-APP](./README.md)
 
-Photo by <a href="https://unsplash.com/@mdherren?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Herren</a> on <a href="https://unsplash.com/s/photos/ufo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+### Audio Examples: 
 
-## Lessons
+* [https://caillonantoine.github.io/ravejs/]()
+* [https://sites.research.google/tonetransfer]()
 
-1. [Build a Web App](1-Web-App/README.md)
+### Movement Examples
 
-## Credits
+* [https://demos.marcelle.dev ]()
 
-"Build a Web App" was written with ♥️ by [Jen Looper](https://twitter.com/jenlooper).
+# 2. Other deployment platforms
 
-♥️ The quizzes were written by Rohan Raj.
+### 2.1 Hugging Face @ https://huggingface.co
 
-The dataset is sourced from [Kaggle](https://www.kaggle.com/NUFORC/ufo-sightings).
+- [https://www.gradio.app/ ](https://www.gradio.app/)
+- Spaces
 
-The web app architecture was suggested in part by [this article](https://towardsdatascience.com/how-to-easily-deploy-machine-learning-models-using-flask-b95af8fe34d4) and [this repo](https://github.com/abhinavsagar/machine-learning-deployment) by Abhinav Sagar.
+pip intall gradio
+
+### 2.2 FastAPI
+
+Based on [Beyond Jupyter Notebooks: MLOps Environment Setup &amp; First Deployment - YouTube](https://www.youtube.com/watch?v=4pkzY95Otm4). Check / revise the video afterwards if you lose track in the class. Great resource if there are development environment problems:  [https://github.com/FourthBrain/software-dev-for-mlops-101](https://github.com/FourthBrain/software-dev-for-mlops-101)
+
+Material form Deep Learning AI  [https://github.com/https-deeplearning-ai/machine-learning-engineering-for-production-public](https://github.com/https-deeplearning-ai/machine-learning-engineering-for-production-public/tree/86e519f6939e5b6aeaa3778deb464efdb8815481/course4/week2-ungraded-labs/C4_W2_Lab_1_FastAPI_Docker). Included in the subfolder .[/LabFastAPI_Docker](./Lab_FastAPI_Docker)
+
+> conda install fastapi pydantic
+
+# 3 Homeworks revisit
